@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ServiceResponse } from '../models/ServiceResponse.model';
+import { Team } from '../models/Team.model';
 
 @Component({
   selector: 'app-team',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./team.component.css']
 })
 export class TeamComponent {
+  @Input() team: Team;
 
+  ngInit() {
+
+  }
+  
 }

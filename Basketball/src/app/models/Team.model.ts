@@ -1,5 +1,5 @@
 export class Team {
-     id : number;
+    id : number;
     abbreviation : string;
     city : string;
     conference: string;

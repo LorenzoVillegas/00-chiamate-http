@@ -17,7 +17,7 @@ export class AppComponent {
   serviceURL: string = "https://www.balldontlie.io/api/v1/teams/";
 
   constructor(public http: HttpClient) {
-      this.makeTypedRequest
+      this.makeTypedRequest()
   }
 
   makeTypedRequest() : void
